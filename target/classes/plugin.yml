@@ -1,0 +1,15 @@
+name: Hothotlugin
+version: '1.0-SNAPSHOT'
+main: com.gmail.pointchanneru.hothotlugin.Hothotlugin
+api-version: 1.15
+authors: [ Pointo ]
+description: Hot
+
+commands:
+  hot:
+    description: Hot Hot Plugin
+    permission: hot
+
+permissions:
+  hot:
+    default: op
